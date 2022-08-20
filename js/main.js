@@ -37,11 +37,11 @@ function scrollHeader() {
 
   if (this.scrollY >= 20) {
     header.classList.add('scroll-header');
-    imgLogo.src = 'images/logo-g.png';
+    imgLogo.src = 'https://pranjal2210.github.io/Travelerz/images/logo-g.png';
   }
   else {
     header.classList.remove('scroll-header');
-    imgLogo.src = 'images/logo-w.png';
+    imgLogo.src = 'https://pranjal2210.github.io/Travelerz/images/logo-w.png';
   }
 }
 
